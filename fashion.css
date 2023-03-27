@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+header{
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+}
+
+.logo{
+    color: rgb(68, 18, 28);
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: none;
+}
+.logo:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.fash{
+    color: rgb(35, 15, 76);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: 550px;
+    
+}
+.fash:hover{
+    cursor: pointer;
+    color: red;
+}
+.card{
+    margin-bottom: 100px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.navbar{
+    display: flex;
+
+    
+}
+
+.navbar a{
+    color: rgb(84, 9, 46);
+    font-size: 1.1rem;
+    padding: 25px 20px;
+    font-weight: 500;
+    
+
+}
+.navbar a:hover{
+    cursor: pointer;
+    color: rgb(175, 11, 11);
+    transition: 0.5s;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.facebook{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: brown;
+    
+}
+.instagram{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: brown;
+}
+.twitter{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: brown;
+}
+.whatsapp{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: brown;
+} 
+.head{
+    font-size: 40px;
+    color: rgb(50, 44, 47);
+    margin-top: 0px;
+    
+}
+.head-text{
+    margin-top: 0px;
+    font-size: 25px;
+    color: rgb(66, 64, 65);
+    
+
+}
+.button{
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-weight: bolder;
+    border-radius: 15px;
+
+
+}
+.button:hover{
+    cursor: pointer;
+    color: purple;
+    background-color:  gray;
+}
